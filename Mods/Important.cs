@@ -160,6 +160,42 @@ namespace iiMenu.Mods
             // rejDebounce = Time.time + 2f;
         }
 
+        public static void AutoJoinRoomMOD()
+        {
+            rejRoom = "MOD";
+            // rejDebounce = Time.time + 2f;
+        }
+
+        public static void AutoJoinRoomMELT()
+        {
+            rejRoom = "MELT";
+            // rejDebounce = Time.time + 2f;
+        }
+
+        public static void AutoJoinRoomJMANCURLY()
+        {
+            rejRoom = "JMANCURLY";
+            // rejDebounce = Time.time + 2f;
+        }
+
+        public static void AutoJoinRoomMODS()
+        {
+            rejRoom = "MODS";
+            // rejDebounce = Time.time + 2f;
+        }
+
+        public static void AutoJoinRoomgoldentrophy()
+        {
+            rejRoom = "goldentrophy";
+            // rejDebounce = Time.time + 2f;
+        }
+
+        public static void AutoJoinRoomMODS()
+        {
+            rejRoom = "CLOUDSCOMP";
+            // rejDebounce = Time.time + 2f;
+        }
+
         public static void RestartGame()
         {
             Process.Start("steam://rungameid/1533390");
