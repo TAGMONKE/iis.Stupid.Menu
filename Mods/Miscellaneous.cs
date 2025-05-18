@@ -113,6 +113,12 @@ namespace iiMenu.Mods
             thatthing.Rotate(0f, 180f, 0f);
         }
 
+        public static void DestroyStumpText() 
+        {
+            GameObject stumptext = UnityEngine.GameObject.Find("ii_stumptext");
+            stumptext.Destroy();
+        }
+
         public static void CopyCreationDateSelf()
         {
             PlayFabClientAPI.GetAccountInfo(new GetAccountInfoRequest { PlayFabId = PhotonNetwork.LocalPlayer.UserId }, delegate (GetAccountInfoResult result) // Who designed this
