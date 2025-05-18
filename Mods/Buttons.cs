@@ -237,6 +237,10 @@ namespace iiMenu.Menu
                 new ButtonInfo { buttonText = "Auto Join Room \"LUCIO\"", method =() => Important.AutoJoinRoomLUCIO(), isTogglable = false, toolTip = "Automatically attempts to connect to room \"LUCIO\" every couple of seconds until connected." },
                 new ButtonInfo { buttonText = "Auto Join Room \"VEN1\"", method =() => Important.AutoJoinRoomVEN1(), isTogglable = false, toolTip = "Automatically attempts to connect to room \"VEN1\" every couple of seconds until connected." },
                 new ButtonInfo { buttonText = "Auto Join Room \"SREN17\"", method =() => Important.AutoJoinRoomSREN17(), isTogglable = false, toolTip = "Automatically attempts to connect to room \"SREN17\" every couple of seconds until connected." },
+                new ButtonInfo { buttonText = "Auto Join Room \"MOD\"", method =() => Important.AutoJoinRoomMOD(), isTogglable = false, toolTip = "Automatically attempts to connect to room \"MOD\" every couple of seconds until connected." },
+                new ButtonInfo { buttonText = "Auto Join Room \"MODS\"", method =() => Important.AutoJoinRoomMODS(), isTogglable = false, toolTip = "Automatically attempts to connect to room \"MODS\" every couple of seconds until connected." },
+                new ButtonInfo { buttonText = "Auto Join Room \"JMANCURLY\"", method =() => Important.AutoJoinRoomJMANCURLY(), isTogglable = false, toolTip = "Automatically attempts to connect to room \"JMANCURLY\" every couple of seconds until connected." },
+                new ButtonInfo { buttonText = "Auto Join Room \"MELT\"", method =() => Important.AutoJoinRoomMELT(), isTogglable = false, toolTip = "Automatically attempts to connect to room \"MELT\" every couple of seconds until connected." },
             },
 
             new ButtonInfo[] { // Important Mods [7]
