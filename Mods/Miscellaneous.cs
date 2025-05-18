@@ -95,6 +95,24 @@ namespace iiMenu.Mods
             }
         }
 
+        public static void StumpText()
+        {
+            GameObject ii_stumptext = new GameObject("ii_stumptext");
+            TextMeshPro txt = ii_stumptext.AddComponent<TextMeshPro>();
+            txt.text = "<color=purple>Thanks for using <color=orange>ii's Stupid Menu</color></color>\n<color=blue>discord.gg/iidk</color>\n<color=red>NOBODY</color><color=purple>is responsible for<color=red>ANY</color> bans using this menu.</color>"; 
+            txt.fontSize = 1.6f;
+            txt.alignment = TextAlignmentOptions.Center;
+            txt.color = Color.blue;
+            txt.font = GameObject.Find("motdtext").GetComponent<TextMeshPro>().font;
+            UnityEngine.Object.Destroy(ii_stumptext, Time.deltaTime);
+            Transform thatthing = ii_stumptext.transform;
+            thatthing.GetComponent<TextMeshPro>().renderer.material.shader = Shader.Find("GUI/Text Shader");
+            thatthing.transform.localScale = new Vector3(0.6f, 0.6f, 0.6f);
+            thatthing.position = new Vector3(-66.5511f, 12f, -82.6264f);
+            thatthing.LookAt(Camera.main.transform.position);
+            thatthing.Rotate(0f, 180f, 0f);
+        }
+
         public static void CopyCreationDateSelf()
         {
             PlayFabClientAPI.GetAccountInfo(new GetAccountInfoRequest { PlayFabId = PhotonNetwork.LocalPlayer.UserId }, delegate (GetAccountInfoResult result) // Who designed this
