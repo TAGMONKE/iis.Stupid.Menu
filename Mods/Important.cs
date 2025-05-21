@@ -1,4 +1,4 @@
-﻿using Cinemachine;
+using Cinemachine;
 using GorillaNetworking;
 using HarmonyLib;
 using iiMenu.Classes;
@@ -193,6 +193,12 @@ namespace iiMenu.Mods
         public static void AutoJoinRoomMODS()
         {
             rejRoom = "CLOUDSCOMP";
+            // rejDebounce = Time.time + 2f;
+        }
+
+        public static void AutoJoinRoomLEAHCSHARP
+        {
+            rejRoom = "LEAHCSHARP";
             // rejDebounce = Time.time + 2f;
         }
 
